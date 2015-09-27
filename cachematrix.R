@@ -64,7 +64,7 @@ cacheSolve <- function(x, ...) {
 ##x$get() ## this will just print the stored matrix(1:4,2,2)
 ##x$getInv() ## NULL, because we didn't solve it yet.
 ##cacheSolve(x) ## now, the solution will be calculated AS WELL AS STORED
-##x$getInv() ## calling the stored inverse matrix, because we didn't solve it yet.
+##x$getInv() ## calling the stored inverse matrix
 ##cacheSolve(x) ## solution will be "called" from the stored fuction
 
 
